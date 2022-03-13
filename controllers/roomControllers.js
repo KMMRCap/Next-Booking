@@ -1,5 +1,5 @@
-import Room from '../models/room'
-import Booking from '../models/booking'
+import Room from '../models/Room'
+import Booking from '../models/Booking'
 import cloudinary from 'cloudinary'
 import ErrorHandler from '../utils/errorHandler'
 import catchAsyncErrors from '../middlewares/catchAsyncErrors'

@@ -1,4 +1,4 @@
-import Booking from '../models/booking'
+import Booking from '../models/Booking'
 import ErrorHandler from '../utils/errorHandler'
 import catchAsyncErrors from '../middlewares/catchAsyncErrors'
 import Moment from 'moment';

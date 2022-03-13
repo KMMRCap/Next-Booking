@@ -1,8 +1,8 @@
-import rooms from 'data/rooms.json'
+import rooms from '../../data/rooms.json'
 import nc from 'next-connect'
-import Room from 'models/Room'
-import dbConnect from 'config/dbConnect'
-import onError from 'middlewares/errors'
+import Room from '../../models/Room'
+import dbConnect from '../../config/dbConnect'
+import onError from '../../middlewares/errors'
 
 const handler = nc({ onError })
 

@@ -1,4 +1,4 @@
-import User from '../models/user'
+import User from '../models/User'
 import cloudinary from 'cloudinary'
 import ErrorHandler from '../utils/errorHandler'
 import catchAsyncErrors from '../middlewares/catchAsyncErrors'
